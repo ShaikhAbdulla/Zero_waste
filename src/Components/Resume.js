@@ -15,13 +15,14 @@ class Resume extends Component {
     if (!this.props.data) return null;
 
     const skillmessage = this.props.data.skillmessage;
-    const individual=[{'company':'Scrap collection','title':'We specialize in the efficient collection of scrap materials, making it easy for you to dispose of unwanted items responsibly. Whether its household scrap, industrial waste, or electronic components, our team ensures proper handling and recycling.'}
+    const individual=[ {'company':'Zero Waste Society','title':'Join us on the journey towards a zero-waste society. Our initiatives and programs focus on minimizing waste generation, promoting recycling, and fostering a culture of sustainability within communities.'} 
+    ,
+    {'company':'Segregation Guidelines with Safai Sathi:','title':'We provide clear and easy-to-follow segregation guidelines to assist individuals and businesses in sorting their waste efficiently. Our trained Safai Sathis (cleaning companions) are available to guide and educate on proper waste segregation practices.'} ,
+      {'company':'Scrap collection','title':'We specialize in the efficient collection of scrap materials, making it easy for you to dispose of unwanted items responsibly. Whether its household scrap, industrial waste, or electronic components, our team ensures proper handling and recycling.'}
     ,
     {'company':'Vehicle Scrapping and Dismantling','title':'Stay compliant with environmental regulations by opting for our vehicle scrapping and dismantling services. We ensure that end-of-life vehicles are disposed of responsibly, recycling materials and minimizing environmental impact.'}
   ,
-  {'company':'Zero Waste Society','title':'Join us on the journey towards a zero-waste society. Our initiatives and programs focus on minimizing waste generation, promoting recycling, and fostering a culture of sustainability within communities.'} 
-  ,
-  {'company':'Segregation Guidelines with Safai Sathi:','title':'We provide clear and easy-to-follow segregation guidelines to assist individuals and businesses in sorting their waste efficiently. Our trained Safai Sathis (cleaning companions) are available to guide and educate on proper waste segregation practices.'} 
+ 
   ]
     const education = individual.map(function (education) {
       return (
