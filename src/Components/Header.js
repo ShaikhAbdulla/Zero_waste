@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 
 class Header extends Component {
   render() {
-    const handleCall = () => {
-      window.location.href = `tel:${'+919619985663'}`;
-    };
+    // const handleCall = () => {
+    //   window.location.href = `tel:${'+919619985663'}`;
+    // };
   
     if (!this.props.data) return null;
 
