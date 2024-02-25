@@ -49,12 +49,18 @@ class App extends Component {
     return (
       <BrowserRouter>
       <Routes>
-      
-          <Route  path="/Home" Component={<HomeScreen />} index />
-        <Route path="/price" Component={<PriceScreen />} />
+      <Route path="/" element={<HomeScreen />} />
+        <Route path="/price" element={<PriceScreen />} />
+        <Route path="/Home" element={<HomeScreen />} />
+        <Route path="/pricedet" element={<PriceDetail />} />
+        
+        {/* Use Navigate to set the default route */}
+        <Route path="*" element={<Navigate to="/" replace />} />
+          {/* <Route index element={<HomeScreen />} />
+        <Route path="/price" element={<PriceScreen />} />
 
-        {/* <Route path="/Home" element={<HomeScreen />} /> */}
-        <Route path="/pricedet" Component={<PriceDetail />} />
+        <Route path="/Home" element={<HomeScreen />} />
+        <Route path="/pricedet" element={<PriceDetail />} /> */}
 
 
      
