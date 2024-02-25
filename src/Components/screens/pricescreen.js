@@ -60,7 +60,7 @@ class PriceScreen extends Component {
               </li> */}
             <li >
             {/* <Link to={'/Home'}> */}
-              <a className="smoothscroll" href="Home">
+              <a className="smoothscroll" href="">
                 Home
               </a>
               {/* </Link> */}
@@ -70,7 +70,7 @@ class PriceScreen extends Component {
 
             <li>
             {/* <Link to={'/Home'}> */}
-              <a className="smoothscroll" href="Home#resume">
+              <a className="smoothscroll" href="#resume">
                 Services
               </a>
               {/* </Link> */}
@@ -78,21 +78,21 @@ class PriceScreen extends Component {
 
             <li>
             {/* <Link to={'/Home'}> */}
-              <a className="smoothscroll" href="Home#portfolio">
+              <a className="smoothscroll" href="#portfolio">
                 Works
               </a>
               {/* </Link> */}
             </li>
             <li>
              {/* <Link to={'/Home'}> */}
-              <a className="smoothscroll" href="Home#about">
+              <a className="smoothscroll" href="#about">
                 About
               </a>
               {/* </Link> */}
             </li>
             <li>
             {/* <Link to={'/Home'}> */}
-              <a className="smoothscroll" href="Home#contact">
+              <a className="smoothscroll" href="#contact">
                 Contact
               </a>
               {/* </Link> */}
