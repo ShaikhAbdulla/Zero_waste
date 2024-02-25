@@ -60,7 +60,7 @@ class PriceScreen extends Component {
               </li> */}
             <li >
             {/* <Link to={'/Home'}> */}
-              <a className="smoothscroll" href="">
+              <a className="smoothscroll" href="#resume">
                 Home
               </a>
               {/* </Link> */}
