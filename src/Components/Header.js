@@ -6,12 +6,13 @@ import { Link } from "react-router-dom";
 
 class Header extends Component {
   render() {
-    // const handleCall = () => {
-    //   window.location.href = `tel:${'+919619985663'}`;
-    // };
+    const handleCall = () => {
+      window.location.href = `tel:${'+919619985663'}`;
+    };
   
     if (!this.props.data) return null;
 
+  
 
     return (
       <header id="home">
@@ -90,13 +91,13 @@ class Header extends Component {
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                {/* <a onClick={handleCall} className="button btn project-btn"> */}
-                {/* <FaPhoneSquare size={25} />  Call us */}
-                {/* </a> */}
+                <button onClick={handleCall} className="button btn project-btn">
+                 Call us
+                </button>
                 {/* <a  className="button btn github-btn"> */}
                 <Link className="button btn github-btn" to="/price">
-                {/* <FaRupeeSign size={25}/> Price */}
-                </Link>
+                {/* <FaRupeeSign size={25}/> */}
+                 Price</Link>
                 {/* </a> */}
               </ul>
             </Fade>

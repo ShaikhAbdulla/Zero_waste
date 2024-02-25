@@ -42,8 +42,6 @@ class Contact extends Component {
   render() {
     if (!this.props.data) return null;
 
-   
-
   
   
 
@@ -185,21 +183,34 @@ class Contact extends Component {
                   </li>
                 </ul>
               </div> */}
-              <div>
-      {/* WhatsApp icon */}
-      {/* <a href="https://wa.me/+919653257899" target="_blank" rel="noopener noreferrer">
-        <FaWhatsapp size={50}/>
-      </a> */}
+              <div style={{display:"flex",justifyContent:'space-between'}}>
+      {/* WhatsApp icon */} 
+    <a href="https://wa.me/+919653257899" target="_blank" rel="noopener noreferrer">
+        {/* <FaWhatsapp size={50}/> */}
+        <img
+                style={{height:50,width:50}}
+                src={"images/whatsapp.png"}
+                alt="Nordic Giant Profile Pic"
+              />
+      </a> 
 
       {/* Instagram icon */}
-      {/* <a href="https://www.instagram.com/zerowastemanagement2" target="_blank" rel="noopener noreferrer">
-        <FaInstagram size={50} />
-      </a> */}
+      <a href="https://www.instagram.com/zerowastemanagement2" target="_blank" rel="noopener noreferrer">
+      <img
+               style={{height:50,width:50}}
+                src={"images/instagram.png"}
+                alt="Nordic Giant Profile Pic"
+              />
+      </a>
 
       {/* Facebook icon */}
-      {/* <a href="https://www.facebook.com/yourfacebook" target="_blank" rel="noopener noreferrer">
-        <FaFacebook size={50} />
-      </a> */}
+      <a href="https://www.facebook.com/yourfacebook" target="_blank" rel="noopener noreferrer">
+      <img
+               style={{height:50,width:50}}
+                src={"images/facebook.png"}
+                alt="Nordic Giant Profile Pic"
+              />
+      </a>
     </div>
             </aside>
           </Slide>

@@ -39,33 +39,67 @@ class About extends Component {
                     <br />
                     {/* <span> */}
                     {/* <ReactWhatsapp number="919619985663" message="Hello World!!!" /> */}
-                    <a
-        href="https://wa.me/+919653257899"
-        className="whatsapp_float"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-       {/* <FaWhatsappSquare style={{height:50,width:50}} /> */}
-        <i className="fa fa-whatsapp whatsapp-icon"></i>
-      </a>
-      <a
-       href="https://www.instagram.com/zerowastemanagement2"
-        className="whatsapp_float"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-       {/* <FaInstagramSquare style={{height:50,width:50}} /> */}
-        <i className="fa fa-whatsapp whatsapp-icon"></i>
-      </a>
-      <a
-        href="https://wa.me/+919653257899"
-        className="whatsapp_float"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-       {/* <FaFacebookSquare style={{height:50,width:50}} /> */}
-        <i className="fa fa-whatsapp whatsapp-icon"></i>
-      </a>
+                    {/* </div> */}
+
+{/* <div className="widget widget_tweets">
+  <h4 className="widget-title">Latest Tweets</h4>
+  <ul id="twitter">
+    <li>
+      <span>
+        This is Photoshop's version of Lorem Ipsum. Proin gravida
+        nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
+        quis bibendum auctor, nisi elit consequat ipsum
+        <a href="./">http://t.co/CGIrdxIlI3</a>
+      </span>
+      <b>
+        <a href="./">2 Days Ago</a>
+      </b>
+    </li>
+    <li>
+      <span>
+        Sed ut perspiciatis unde omnis iste natus error sit
+        voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et
+        quasi
+        <a href="./">http://t.co/CGIrdxIlI3</a>
+      </span>
+      <b>
+        <a href="./">3 Days Ago</a>
+      </b>
+    </li>
+  </ul>
+</div> */}
+
+{/* WhatsApp icon */} 
+<a href="https://wa.me/+919653257899" target="_blank" rel="noopener noreferrer">
+{/* <FaWhatsapp size={50}/> */}
+<img
+  style={{height:50,width:50,margin:10}}
+  src={"images/whatsapp.png"}
+  alt="Nordic Giant Profile Pic"
+/>
+</a> 
+
+{/* Instagram icon */}
+<a href="https://www.instagram.com/zerowastemanagement2" target="_blank" rel="noopener noreferrer">
+<img
+ style={{height:50,width:50,margin:10}}
+  src={"images/instagram.png"}
+  alt="Nordic Giant Profile Pic"
+/>
+</a>
+
+{/* Facebook icon */}
+<a href="https://www.facebook.com/yourfacebook" target="_blank" rel="noopener noreferrer">
+<img
+style={{height:50,width:50,margin:10}}
+  src={"images/facebook.png"}
+  alt="Nordic Giant Profile Pic"
+/>
+</a>
+
+      
+     
                     {/* <WhatsAppWidget phoneNumber="9619985663" message="Hello, this is my message!" /> */}
                     {/* <ah>
                     WhatsApp Us Now */}
