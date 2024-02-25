@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import Fade, { Slide } from "react-reveal";
-// import WhatsAppWidget from 'react-whatsapp-widget';
-import WhatsAppWidget from 'react-whatsapp-widget'
-import ReactWhatsapp from 'react-whatsapp';
+
+
 import { FaWhatsappSquare,FaInstagramSquare,FaFacebookSquare } from "react-icons/fa"
 // import "react-fa-icon";
 
