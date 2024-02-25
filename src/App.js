@@ -50,7 +50,7 @@ class App extends Component {
       <BrowserRouter>
       <Routes>
       
-          <Route path="/Home" element={<HomeScreen />} />
+          <Route index path="/Home" element={<HomeScreen />} />
         <Route path="/price" element={<PriceScreen />} />
 
         {/* <Route path="/Home" element={<HomeScreen />} /> */}
