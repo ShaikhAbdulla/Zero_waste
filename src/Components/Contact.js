@@ -30,7 +30,7 @@ class Contact extends Component {
     try {
       const response = await axios.post('http://localhost:3000/api/contact', this.state);
       console.log('Contact form submitted successfully!', response.data.message);
-      if(response.data.message=='Contact form submitted successfully!'){
+      if(response.data.message==='Contact form submitted successfully!'){
         
         alert('Thank you for contacting us, we will be contacting you soon')
       }
@@ -42,13 +42,7 @@ class Contact extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const name = this.props.data.name;
-    const street = this.props.data.address.street;
-    const city = this.props.data.address.city;
-    const state = this.props.data.address.state;
-    const zip = this.props.data.address.zip;
-    const phone = this.props.data.phone;
-    const message = this.props.data.contactmessage;
+   
 
   
   

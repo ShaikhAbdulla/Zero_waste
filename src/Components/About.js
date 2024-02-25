@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Fade, { Slide } from "react-reveal";
+import Fade from "react-reveal";
 
 
 // import { FaWhatsappSquare,FaInstagramSquare,FaFacebookSquare } from "react-icons/fa"
@@ -9,16 +9,10 @@ class About extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const name = this.props.data.name;
+
     const profilepic = "images/logo.jpg";
     const bio = 'Welcome to our Waste Management Hub, your go-to platform for all things waste-related. Our services include scrap collection, fostering a zero-waste society, efficient waste management, and providing clear segregation guidelines with the assistance of our trained Safai Sathis. Additionally, we offer manpower solutions for proper waste management, as well as vehicle scrapping and dismantling services. Join us in creating a cleaner, greener, and more sustainable environment.';
-    const street = this.props.data.address.street;
-    const city = this.props.data.address.city;
-    const state = this.props.data.address.state;
-    const zip = this.props.data.address.zip;
-    const phone = this.props.data.phone;
-    // const email = this.props.data.email;
-    const resumeDownload = this.props.data.resumedownload;
+   
 
     return (
       <section id="about">

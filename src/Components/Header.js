@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import { FaPhoneSquare,FaRupeeSign } from 'react-icons/fa';
 
 class Header extends Component {
@@ -12,10 +12,6 @@ class Header extends Component {
   
     if (!this.props.data) return null;
 
-    const project = this.props.data.project;
-    const github = this.props.data.github;
-    const name = this.props.data.name;
-    const description = this.props.data.description;
 
     return (
       <header id="home">

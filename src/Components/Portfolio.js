@@ -111,17 +111,17 @@ this.setState({isDetail:back})
       return <PriceDetail onBack={back} detail={this.state.detail}/>
     }else{
     return (
-      <section id="portfolio" style={{backgroundColor:this.props.data=='price'?'black':null}} >
+      <section id="portfolio" style={{backgroundColor:this.props.data==='price'?'black':null}} >
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1 style={{fontSize:30}}>{this.props.data=='price'?'Scrap Prices':'Check Out Some of our Works'}</h1>
+              <h1 style={{fontSize:30}}>{this.props.data==='price'?'Scrap Prices':'Check Out Some of our Works'}</h1>
 
               <div
                 id="portfolio-wrapper"
                 className="bgrid-quarters s-bgrid-thirds cf"
               >
-                {this.props.data=='price'?prices:projects}
+                {this.props.data==='price'?prices:projects}
               </div>
             </div>
           </div>

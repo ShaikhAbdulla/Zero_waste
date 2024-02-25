@@ -1,5 +1,5 @@
 import React from 'react';
-import { Fade,Slide,Bounce } from 'react-reveal';
+// import { Fade,Slide,Bounce } from 'react-reveal';
 
 const VideoPlayer = () => {
   return (

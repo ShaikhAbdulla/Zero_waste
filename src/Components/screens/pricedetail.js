@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { useLocation } from 'react-router-dom';
-import { Fade, Slide } from "react-reveal";
-import { useState } from "react";
+// import { Link } from "react-router-dom";
+// import { useLocation } from 'react-router-dom';
+import {  Slide } from "react-reveal";
+// import { useState } from "react";
 import '../../Components/PriceDetail.css'; // Import a separate CSS file for styling
 
 const PriceDetail = ({ detail, onBack }) => {
