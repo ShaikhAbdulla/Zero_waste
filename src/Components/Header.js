@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 import { Outlet, Link } from "react-router-dom";
-import { FaPhoneSquare,FaRupeeSign } from 'react-icons/fa';
+// import { FaPhoneSquare,FaRupeeSign } from 'react-icons/fa';
 
 class Header extends Component {
   render() {
@@ -95,10 +95,12 @@ class Header extends Component {
             <Fade bottom duration={2000}>
               <ul className="social">
                 <a onClick={handleCall} className="button btn project-btn">
-                <FaPhoneSquare size={25} />  Call us
+                {/* <FaPhoneSquare size={25} />  Call us */}
                 </a>
                 {/* <a  className="button btn github-btn"> */}
-                <Link className="button btn github-btn" to="/price"><FaRupeeSign size={25}/> Price</Link>
+                <Link className="button btn github-btn" to="/price">
+                {/* <FaRupeeSign size={25}/> Price */}
+                </Link>
                 {/* </a> */}
               </ul>
             </Fade>

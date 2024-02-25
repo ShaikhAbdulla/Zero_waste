@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Fade, { Slide } from "react-reveal";
 
 
-import { FaWhatsappSquare,FaInstagramSquare,FaFacebookSquare } from "react-icons/fa"
+// import { FaWhatsappSquare,FaInstagramSquare,FaFacebookSquare } from "react-icons/fa"
 // import "react-fa-icon";
 
 class About extends Component {
@@ -51,7 +51,7 @@ class About extends Component {
         target="_blank"
         rel="noopener noreferrer"
       >
-       <FaWhatsappSquare style={{height:50,width:50}} />
+       {/* <FaWhatsappSquare style={{height:50,width:50}} /> */}
         <i className="fa fa-whatsapp whatsapp-icon"></i>
       </a>
       <a
@@ -60,7 +60,7 @@ class About extends Component {
         target="_blank"
         rel="noopener noreferrer"
       >
-       <FaInstagramSquare style={{height:50,width:50}} />
+       {/* <FaInstagramSquare style={{height:50,width:50}} /> */}
         <i className="fa fa-whatsapp whatsapp-icon"></i>
       </a>
       <a
@@ -69,7 +69,7 @@ class About extends Component {
         target="_blank"
         rel="noopener noreferrer"
       >
-       <FaFacebookSquare style={{height:50,width:50}} />
+       {/* <FaFacebookSquare style={{height:50,width:50}} /> */}
         <i className="fa fa-whatsapp whatsapp-icon"></i>
       </a>
                     {/* <WhatsAppWidget phoneNumber="9619985663" message="Hello, this is my message!" /> */}

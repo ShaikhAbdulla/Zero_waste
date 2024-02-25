@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Fade, Slide } from "react-reveal";
 import axios from 'axios';
 // import { faWhatsapp, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
-import { FaWhatsapp, FaInstagram, FaFacebook } from 'react-icons/fa'
+// import { FaWhatsapp, FaInstagram, FaFacebook } from 'react-icons/fa'
 
 class Contact extends Component {
   constructor(props) {
@@ -193,19 +193,19 @@ class Contact extends Component {
               </div> */}
               <div>
       {/* WhatsApp icon */}
-      <a href="https://wa.me/+919653257899" target="_blank" rel="noopener noreferrer">
+      {/* <a href="https://wa.me/+919653257899" target="_blank" rel="noopener noreferrer">
         <FaWhatsapp size={50}/>
-      </a>
+      </a> */}
 
       {/* Instagram icon */}
-      <a href="https://www.instagram.com/zerowastemanagement2" target="_blank" rel="noopener noreferrer">
+      {/* <a href="https://www.instagram.com/zerowastemanagement2" target="_blank" rel="noopener noreferrer">
         <FaInstagram size={50} />
-      </a>
+      </a> */}
 
       {/* Facebook icon */}
-      <a href="https://www.facebook.com/yourfacebook" target="_blank" rel="noopener noreferrer">
+      {/* <a href="https://www.facebook.com/yourfacebook" target="_blank" rel="noopener noreferrer">
         <FaFacebook size={50} />
-      </a>
+      </a> */}
     </div>
             </aside>
           </Slide>
