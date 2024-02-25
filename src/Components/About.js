@@ -71,7 +71,7 @@ class About extends Component {
 </div> */}
 
 {/* WhatsApp icon */} 
-<a href="https://wa.me/+919653257899" target="_blank" rel="noopener noreferrer">
+<a href="https://wa.me/+919653257899" target="hello, i want to enquire about the services you provide!" rel="noopener noreferrer">
 {/* <FaWhatsapp size={50}/> */}
 <img
   style={{height:50,width:50,margin:10}}
