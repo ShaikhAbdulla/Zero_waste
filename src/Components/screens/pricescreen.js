@@ -41,7 +41,7 @@ class PriceScreen extends Component {
           <a className="mobile-btn" href="#home" title="Hide navigation">
             Hide navigation
           </a>
-          <a className="profile-pic" href="Home">
+          <a href="Home">
           <img
           style={{height:45,width:80,position:"absolute",top:0,left:0,borderRadius:20,margin:1}}
                 // className="profile-pic"
@@ -60,7 +60,7 @@ class PriceScreen extends Component {
               </li> */}
             <li >
             {/* <Link to={'/Home'}> */}
-              <a className="smoothscroll" href="Home#contact">
+              <a className="smoothscroll" href="Home">
                 Home
               </a>
               {/* </Link> */}
@@ -69,33 +69,33 @@ class PriceScreen extends Component {
           
 
             <li>
-            <Link to={'/Home'}>
-              {/* <a className="smoothscroll" href="#contact"> */}
+            {/* <Link to={'/Home'}> */}
+              <a className="smoothscroll" href="Home#resume">
                 Services
-              {/* </a> */}
-              </Link>
+              </a>
+              {/* </Link> */}
             </li>
 
             <li>
-            <Link to={'/Home'}>
-              {/* <a className="smoothscroll" href="#contact"> */}
+            {/* <Link to={'/Home'}> */}
+              <a className="smoothscroll" href="Home#portfolio">
                 Works
-              {/* </a> */}
-              </Link>
+              </a>
+              {/* </Link> */}
             </li>
             <li>
-             <Link to={'/Home'}>
-              {/* <a className="smoothscroll" href="#contact"> */}
+             {/* <Link to={'/Home'}> */}
+              <a className="smoothscroll" href="Home#about">
                 About
-              {/* </a> */}
-              </Link>
+              </a>
+              {/* </Link> */}
             </li>
             <li>
-            <Link to={'/Home'}>
-              {/* <a className="smoothscroll" href="#contact"> */}
+            {/* <Link to={'/Home'}> */}
+              <a className="smoothscroll" href="Home#contact">
                 Contact
-              {/* </a> */}
-              </Link>
+              </a>
+              {/* </Link> */}
             </li>
             <li>
             {/* Use the Link component to navigate to the Price page */}

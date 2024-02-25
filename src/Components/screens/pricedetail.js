@@ -4,6 +4,7 @@ import React from "react";
 import {  Slide } from "react-reveal";
 // import { useState } from "react";
 import '../../Components/PriceDetail.css'; // Import a separate CSS file for styling
+import Header from "../Header";
 
 const PriceDetail = ({ detail, onBack }) => {
   console.log(detail);
@@ -16,6 +17,7 @@ const PriceDetail = ({ detail, onBack }) => {
   const details = detail.category.map((item) => {
     return (
       <div key={item.type} className="price-detail-item">
+      <Header/>
        
         <Slide right duration={1000}>
           <h2 className="item-type">{item.type}</h2>
