@@ -90,9 +90,9 @@ class Header extends Component {
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a onClick={handleCall} className="button btn project-btn">
+                {/* <a onClick={handleCall} className="button btn project-btn"> */}
                 {/* <FaPhoneSquare size={25} />  Call us */}
-                </a>
+                {/* </a> */}
                 {/* <a  className="button btn github-btn"> */}
                 <Link className="button btn github-btn" to="/price">
                 {/* <FaRupeeSign size={25}/> Price */}

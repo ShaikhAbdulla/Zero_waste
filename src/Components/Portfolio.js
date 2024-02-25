@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Zmage from "react-zmage";
 import Fade from "react-reveal";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import PriceDetail from "./screens/pricedetail";
 
 let id = 0;
