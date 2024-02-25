@@ -1,5 +1,5 @@
 {
-  "name": "reactniceresume",
+  "name": "zero_waste",
   "version": "0.1.0",
   "private": true,
   "homepage": "./",
@@ -19,7 +19,7 @@
     "react-router-dom": "^6.22.1",
     "react-scripts": "4.0.3",
     "react-whatsapp": "^0.3.0",
-    "react-whatsapp-widget": "^2.2.0",
+   
     "react-zmage": "^0.8.5-beta.36",
     "web-vitals": "^1.0.1"
   },
