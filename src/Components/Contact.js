@@ -40,7 +40,7 @@ class Contact extends Component {
     }
   };
   render() {
-    if (!this.props.data) return null;
+  
 
   
   

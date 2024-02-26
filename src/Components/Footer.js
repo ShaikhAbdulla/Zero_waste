@@ -92,12 +92,12 @@ class Footer extends Component {
 
               <ul className="copyright">
                 <li>&copy; Copyright 2024 Zero waste</li>
-                <li>
-                  Design and Developed by{" "}
-                  <a title="Styleshout" href="http://www.styleshout.com/">
-                   @abdullashaikh663@gmail.com
-                  </a>
-                </li>
+                <li style={{color:'white'}}>
+  Design and Developed by ✉ {" "}
+  <a title="Abdulla Shaikh" href="mailto:abdullashaikh663@gmail.com">
+    Abdulla Shaikh
+  </a>
+</li>
               </ul>
             </div>
           </Fade>
