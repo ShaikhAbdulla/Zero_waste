@@ -81,7 +81,9 @@ const level=[{'name':'Wet waste','level':'60%'},
       <section id="resume">
         <Slide left duration={1300}>
         <div className="row education">
-        <h1 style={{fontSize:35}}>Services</h1>
+        <div className="three columns header-col" >
+        <h1 style={{fontSize:35,alignSelf:"center",left:100}}>Services</h1>
+        </div>
         </div>
           <div className="row education">
             <div className="three columns header-col">

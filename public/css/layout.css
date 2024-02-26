@@ -239,6 +239,7 @@ ul#nav li.current a { color:
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
+   /* align-items : center; */
 }
 
 #resume a, #resume a:visited  { color: #0762f9; }
@@ -248,6 +249,9 @@ ul#nav li.current a { color:
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
+   align-items: center;
+   left: 100px;
+   /* background-color:black; */
 }
 #resume h1 span {
    border-bottom: 3px solid #0762f9;
@@ -266,7 +270,7 @@ ul#nav li.current a { color:
    border-bottom: 1px solid #E8E8E8;
 }
 #resume .info {
-   font: 16px/24px 'librebaskerville-italic', serif;
+   font: 20px/28px  serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
