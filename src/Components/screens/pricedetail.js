@@ -4,7 +4,7 @@ import React from "react";
 import {  Slide } from "react-reveal";
 // import { useState } from "react";
 import '../../Components/PriceDetail.css'; // Import a separate CSS file for styling
-import Header from "../Header";
+// import Header from "../Header";
 
 const PriceDetail = ({ detail, onBack }) => {
   console.log(detail);
