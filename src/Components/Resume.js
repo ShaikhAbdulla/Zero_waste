@@ -64,18 +64,18 @@ const level=[{'name':'Wet waste','level':'60%'},
 {'name':'Hazardous waste','level':'30%'},
 {'name':'Food donated','level':'40%'}
 ]
-    // const skills = level.map((skills) => {
-    //   const backgroundColor = this.getRandomColor();
-    //   const className = "bar-expand " + skills.name.toLowerCase();
-    //   const width = skills.level;
+    const skills = level.map((skills) => {
+      const backgroundColor = this.getRandomColor();
+      const className = "bar-expand " + skills.name.toLowerCase();
+      const width = skills.level;
 
-    //   return (
-    //     <li key={skills.name}>
-    //       <span style={{ width, backgroundColor }} className={className}></span>
-    //       <em>{skills.name}</em>
-    //     </li>
-    //   );
-    // });
+      return (
+        <li key={skills.name}>
+          <span style={{ width, backgroundColor }} className={className}></span>
+          <em>{skills.name}</em>
+        </li>
+      );
+    });
 
     return (
       <section id="resume">
@@ -123,7 +123,7 @@ const level=[{'name':'Wet waste','level':'60%'},
               {/* <p>{skillmessage}</p> */}
 
               <div className="bars">
-                {/* <ul className="skills">{skills}</ul> */}
+                <ul className="skills">{skills}</ul>
               </div>
             </div>
           </div>
