@@ -41,14 +41,16 @@ class PriceScreen extends Component {
           <a className="mobile-btn" href="#home" title="Hide navigation">
             Hide navigation
           </a>
-          <a href="Home">
+          {/* <a href="Home"> */}
+          <Link to={'/Home'}>
           <img
           style={{height:45,width:80,position:"absolute",top:0,left:0,borderRadius:20,margin:1}}
                 // className="profile-pic"
                 src={'images/logo.jpg'}
                 alt="Nordic Giant Profile Pic"
               />
-              </a>
+              </Link>
+              {/* </a> */}
           <ul id="nav" className="nav">
           {/* <li className="current">
           <img
@@ -59,36 +61,36 @@ class PriceScreen extends Component {
               />
               </li> */}
             <li >
-            {/* <Link to={'/Home'}> */}
-              <a className="smoothscroll" href="Home">
+            <Link to={'/Home'}>
+              {/* <a className="smoothscroll" href="Home#home"> */}
                 Home
-              </a>
-              {/* </Link> */}
+              {/* </a> */}
+              </Link>
             </li>
 
           
 
             <li>
-            {/* <Link to={'/Home'}> */}
-              <a className="smoothscroll" href="Home#resume">
+            <Link to={'/Home#resume'}>
+              {/* <a className="smoothscroll" href="Home#resume"> */}
                 Services
-              </a>
-              {/* </Link> */}
+              {/* </a> */}
+              </Link>
             </li>
 
             <li>
-            {/* <Link to={'/Home'}> */}
-              <a className="smoothscroll" href="Home#portfolio">
+            <Link to={'/Home#portfolio'}>
+              {/* <a className="smoothscroll" href="Home#portfolio"> */}
                 Works
-              </a>
-              {/* </Link> */}
+              {/* </a> */}
+              </Link>
             </li>
             <li>
-             {/* <Link to={'/Home'}> */}
-              <a className="smoothscroll" href="Home#about">
+             <Link to={'/Home#about'}>
+              {/* <a className="smoothscroll" href="Home#about"> */}
                 About
-              </a>
-              {/* </Link> */}
+              {/* </a> */}
+              </Link>
             </li>
             <li>
             {/* <Link to={'/Home'}> */}

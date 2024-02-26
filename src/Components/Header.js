@@ -10,7 +10,7 @@ class Header extends Component {
       window.location.href = `tel:${'+919653257899'}`;
     };
   
-    if (!this.props.data) return null;
+   
 
   
 

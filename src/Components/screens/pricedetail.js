@@ -17,7 +17,7 @@ const PriceDetail = ({ detail, onBack }) => {
   const details = detail.category.map((item) => {
     return (
       <div key={item.type} className="price-detail-item">
-      <Header/>
+   
        
         <Slide right duration={1000}>
           <h2 className="item-type">{item.type}</h2>

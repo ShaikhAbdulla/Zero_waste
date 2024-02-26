@@ -12,9 +12,9 @@ class Resume extends Component {
   }
 
   render() {
-    if (!this.props.data) return null;
+   
 
-    const skillmessage = this.props.data.skillmessage;
+    // const skillmessage = this.props.data.skillmessage;
     const individual=[ {'company':'Zero Waste Society','title':'Join us on the journey towards a zero-waste society. Our initiatives and programs focus on minimizing waste generation, promoting recycling, and fostering a culture of sustainability within communities.'} 
     ,
     {'company':'Segregation Guidelines with Safai Sathi:','title':'We provide clear and easy-to-follow segregation guidelines to assist individuals and businesses in sorting their waste efficiently. Our trained Safai Sathis (cleaning companions) are available to guide and educate on proper waste segregation practices.'} ,
@@ -58,7 +58,7 @@ class Resume extends Component {
         </div>
       );
     });
-console.log('iuiuiuiuiu',this.props.data.skills);
+
 const level=[{'name':'Wet waste','level':'60%'},
 {'name':'Dry waste','level':'80%'},
 {'name':'Hazardous waste','level':'30%'},
@@ -120,10 +120,10 @@ const level=[{'name':'Wet waste','level':'60%'},
             </div>
 
             <div className="nine columns main-col">
-              <p>{skillmessage}</p>
+              {/* <p>{skillmessage}</p> */}
 
               <div className="bars">
-                <ul className="skills">{skills}</ul>
+                {/* <ul className="skills">{skills}</ul> */}
               </div>
             </div>
           </div>

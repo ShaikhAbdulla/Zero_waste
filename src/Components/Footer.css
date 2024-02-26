@@ -1,0 +1,12 @@
+.colored-icon {
+    height: 30px;
+    width: 30px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .colored-icon:hover {
+    filter: grayscale(0%); /* Original color on hover */
+    transform: scale(1.2); 
+  }
+  

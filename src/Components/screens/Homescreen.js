@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import ReactGA from "react-ga";
-import $ from "jquery";
+// import ReactGA from "react-ga";
+// import $ from "jquery";
 import "../../App.css";
 import Header from "../Header";
 import Footer from "../Footer";
@@ -18,41 +18,25 @@ class HomeScreen extends Component {
       resumeData: {}
     };
 
-    ReactGA.initialize("UA-110570651-1");
-    ReactGA.pageview(window.location.pathname);
+  
   }
 
-  getResumeData() {
-    $.ajax({
-      url: "./resumeData.json",
-      dataType: "json",
-      cache: false,
-      success: function(data) {
-        this.setState({ resumeData: data });
-      }.bind(this),
-      error: function(xhr, status, err) {
-        console.log(err);
-        alert(err);
-      }
-    });
-  }
 
-  componentDidMount() {
-    this.getResumeData();
-  }
+
+  
 
   render() {
     console.log('loggggggg',this.state.resumeData.resume);
     return (
       <div className="App">
       
-        <Header data={this.state.resumeData.main} />
-        <Resume data={this.state.resumeData.resume} />
-        <Portfolio data={this.state.resumeData.portfolio} />
-        <About data={this.state.resumeData.main} />
+        <Header/>
+        <Resume  />
+        <Portfolio  />
+        <About  />
         <VideoPlayer/>
-        <Contact data={this.state.resumeData.main} />
-        <Footer data={this.state.resumeData.main} />
+        <Contact />
+        <Footer  />
       </div>
     );
   }
