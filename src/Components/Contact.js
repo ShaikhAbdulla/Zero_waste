@@ -28,7 +28,7 @@ class Contact extends Component {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:3000/api/contact', this.state);
+      const response = await axios.post('https://vocal-genie-eee57c.netlify.app', this.state);
       console.log('Contact form submitted successfully!', response.data.message);
       if(response.data.message==='Contact form submitted successfully!'){
         
